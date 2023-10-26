@@ -29,8 +29,8 @@ Pomodoro Task/Timer app for focus and productivity
   - Shows the count of each pomodoro completed.
   - Strikethrough task upon completion.
 - User Interface
- - Clean and friendly UI for task management and timer functionality.
- - Responsive design for mobile and desktop.
+  - Clean and friendly UI for task management and timer functionality.
+  - Responsive design for mobile and desktop.
 - Persistence
   - Tasks persist after refresh
  
