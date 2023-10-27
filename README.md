@@ -2,6 +2,7 @@
 
 Pomodoro Task/Timer app for focus and productivity
 
+Preview Video: https://www.loom.com/share/20809aaadece4a22ae1b467b6f4a40e8
 
 <img width="400" alt="Screenshot 2023-10-27 at 12 51 02 PM" src="https://github.com/Noitskristopher/Taskodoro/assets/113050937/106a0422-46f5-41a3-b1ad-e9091d58af5c">
 <img width="400" alt="Screenshot 2023-10-27 at 12 52 39 PM" src="https://github.com/Noitskristopher/Taskodoro/assets/113050937/74dd5343-c8ad-48c7-af18-13d75f8b8fea">
