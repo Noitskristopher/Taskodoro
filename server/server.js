@@ -11,7 +11,7 @@ app.use(express.urlencoded({ extended: true }));
 // }));
 
 app.use(cors({
-    origin: ["https://vercel.com/cabadokris32-gmailcom/taskodoro-backend/6RRMTJyvo9CC6tL3sCq6K5CvawRq"],
+    origin: ["https://taskodoro-backend-77z1qb2rp-cabadokris32-gmailcom.vercel.app/"],
     methods: ["POST", "GET"]
 }));
 
