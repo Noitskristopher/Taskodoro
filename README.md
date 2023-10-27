@@ -2,6 +2,14 @@
 
 Pomodoro Task/Timer app for focus and productivity
 
+
+<img width="400" alt="Screenshot 2023-10-27 at 12 51 02 PM" src="https://github.com/Noitskristopher/Taskodoro/assets/113050937/106a0422-46f5-41a3-b1ad-e9091d58af5c">
+<img width="400" alt="Screenshot 2023-10-27 at 12 52 39 PM" src="https://github.com/Noitskristopher/Taskodoro/assets/113050937/74dd5343-c8ad-48c7-af18-13d75f8b8fea">
+<img width="400" alt="Screenshot 2023-10-27 at 1 00 44 PM" src="https://github.com/Noitskristopher/Taskodoro/assets/113050937/95387d05-1458-4247-b73f-aec23e53ebcc">
+<img width="400" alt="Screenshot 2023-10-27 at 12 52 53 PM" src="https://github.com/Noitskristopher/Taskodoro/assets/113050937/f5678a96-c860-4f0a-823c-4b931740fca6">
+
+
+
 <h1>Technology Stack</h1>
 
 ## Front End
