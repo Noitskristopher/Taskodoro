@@ -46,5 +46,8 @@ module.exports = {
         catch (err) {
             res.status(400).json({ message: 'err' })
         }
+    },
+    logout: async (req, res) => {
+        res.clearCookie('userToken').json({ message: 'User logged out' })
     }
 }
