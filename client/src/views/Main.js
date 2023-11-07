@@ -1,11 +1,13 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 
+import Nav from '../components/Nav';
 import Timer from '../components/Timer';
 import Tasks from '../components/Tasks';
 import Advice from '../components/Advice';
 
-const Main = () => {
+const Main = (props) => {
+    const { isLoggedIn, setIsLoggedIn } = props;
     const [allTasks, setAllTasks] = useState([]);
     const [selectedTask, setSelectedTask] = useState(null);
     const [editTask, setEditTask] = useState({})
@@ -103,6 +105,7 @@ const Main = () => {
 
     return (
         <>
+            <Nav isLoggedIn={isLoggedIn} setIsLoggedIn={setIsLoggedIn} />
             <div className='max-lg:block flex mx-auto max-sm:w-full w-4/5 pt-12 pb-36'>
                 <div className='w-full'>
                     <Timer selectedTask={selectedTask} setSelectedTask={setSelectedTask} allTasks={allTasks} setAllTasks={setAllTasks} />
