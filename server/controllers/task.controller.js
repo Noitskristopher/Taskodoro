@@ -4,6 +4,8 @@ const axios = require('axios');
 module.exports = {
     createTask: async (req, res) => {
         try {
+            const decodedJwt = jwt.decode(req.cookies.userToken, { complete: true })
+            console.log(decodedJwt)
             const task = req.body
             const createdTask = await Task.create(task)
             res.json(createdTask)
