@@ -4,7 +4,6 @@ import axios from 'axios';
 import Timer from '../components/Timer';
 import Tasks from '../components/Tasks';
 import Advice from '../components/Advice';
-import Description from '../components/Description';
 
 const Main = () => {
     const [allTasks, setAllTasks] = useState([]);
@@ -120,9 +119,6 @@ const Main = () => {
                         setSelectedTask={setSelectedTask}
                         handleTaskSelection={handleTaskSelection} />
                 </div>
-            </div>
-            <div className='w-full'>
-                <Description />
             </div>
         </>
     );
