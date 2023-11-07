@@ -8,8 +8,8 @@ module.exports.authenticate = (req, res, next) => {
         }
         else {
             console.log('Authenticated')
-            req.user = payLoad
-            console.log(payLoad);
+            // req.user = payLoad
+            // console.log(payLoad);
             next();
         }
     })
