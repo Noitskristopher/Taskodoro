@@ -4,7 +4,9 @@ import { Link, useNavigate } from 'react-router-dom';
 
 import axios from 'axios';
 
-const Login = () => {
+const Login = (props) => {
+    const { setIsLoggedIn, isLoggedIn } = props;
+
     const navigate = useNavigate();
 
     const [userLogin, setUserLogin] = useState({
@@ -21,6 +23,7 @@ const Login = () => {
         axios.post('http://localhost:8000/api/login', userLogin, { withCredentials: true })
             .then((res) => {
                 console.log(res)
+                setIsLoggedIn(true)
                 navigate('/')
             })
             .catch((err) => {
